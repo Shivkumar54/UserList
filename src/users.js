@@ -32,10 +32,6 @@ const list = datas.map((eachData) => {
                     <td><GrGlobe size={20}/></td>
                     <td>{eachData.website}</td>
                 </tr>
-                <tr>
-                    <td><GrLocation size={20}/></td>
-                    <td>{eachData.address.street}</td>
-                </tr>
                
 
             </table>
