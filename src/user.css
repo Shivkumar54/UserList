@@ -61,3 +61,17 @@ h1{
     font-size: 75px;
     text-decoration: underline;
 }
+
+@media screen and (max-width:1028px) {
+    .flexxer{
+        display: block;
+        gap: 40px;
+        margin: 10px 30px;
+        justify-content: space-between;
+    }
+    .users{
+        width: 100%;
+        background-color: bisque;
+        padding: 0 20px;
+    }
+}
