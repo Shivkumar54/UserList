@@ -1,4 +1,4 @@
-.rootFolder{
+/* .rootFolder{
 
     background-color:rgb(226, 226, 226);
 }
@@ -42,4 +42,22 @@ table>tr>td{
     font-weight: 600;
     padding:5px 10px; 
     font-size: 13px;
+} */
+
+
+.flexxer{
+    display: flex;
+    gap: 40px;
+    margin: 10px 30px;
+    justify-content: space-between;
+}
+.users{
+    width: 40%;
+    background-color: bisque;
+    padding: 0 20px;
+}
+
+h1{
+    font-size: 75px;
+    text-decoration: underline;
 }

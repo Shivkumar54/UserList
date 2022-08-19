@@ -34,16 +34,16 @@ const Dashboard = () => {
     const UserDetails = user.map(({ name, id, username, email }) => {
         return (
             <div key={id}>
-                <h1>{name }</h1>
-                <h3>{username }</h3>
-                <h4>{email }</h4>
+                <h4>{name }</h4>
+                <h6>{username }</h6>
+                <p>{email }</p>
             </div>
         )
     })
     const postDetails = post.map(({ title, id, body }) => {
         return (
             <div key={id}>
-                <h1>{title }</h1>
+                <h4>{title }</h4>
                 <p>{body }</p>
                 
             </div>
@@ -56,11 +56,15 @@ const Dashboard = () => {
     return (
         <>
             <div className='flexxer'>
-                <div>
-
-                </div>
+                <div className='users'>
+                    <h1>Users</h1>
                 {UserDetails}
+                </div>
+                <div className='posts'>
+                    <h1>Posts</h1>
                 {postDetails}
+                </div>
+                
 
             </div>
         </>
